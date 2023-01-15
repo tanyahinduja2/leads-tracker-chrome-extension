@@ -1,0 +1,61 @@
+* {
+    font-family:"Arvo", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    min-width: 380px;
+    max-width: 410px;
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 3px solid rgb(3, 148, 158);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+}
+
+button {
+    border: 2px solid rgb(3, 148, 158);
+    background-color:rgb(3, 148, 158);
+    color: white;
+    border-radius: 3px;
+    padding: 9px 20px;
+    font-size: 12px;
+    font-weight: bold; 
+    margin-right: 5px;
+}
+
+#delete-all {
+    border: 2px solid rgb(3, 148, 158);
+    background-color: white;
+    color: rgb(3, 148, 158);
+    border-radius: 3px;
+    padding: 9px 20px;
+    font-size: 12px;
+    font-weight: bold; 
+    margin-right: 5px;
+}
+
+button:hover {
+    box-shadow: 0 0.5px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 23px;
+    list-style-type: none;
+    padding-left: 0px;
+    min-width: 400px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color:rgb(3, 148, 158);
+}
